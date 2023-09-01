@@ -23,7 +23,7 @@ public class HelloServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
         out.println("<h1>" + message + "</h1>");
-        out.println("</body></html>!!고고고임대리");
+        out.println("</body></html>!!고고고임대리11");
     }
 
     public void destroy() {
